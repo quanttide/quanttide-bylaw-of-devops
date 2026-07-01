@@ -18,7 +18,7 @@
 （四）发布。创建 GitHub Release，Release body 须包含该版本的 CHANGELOG 内容。
 
 **第四条 版本号规则**
-版本号遵循语义化版本规范（SemVer）。正式版格式为 `vX.Y.Z`，预发布版在版本号后加 `-rc.N`、`-alpha.N`、`-beta.N` 等后缀。
+版本号遵循语义化版本规范（SemVer）。正式版格式为 `vX.Y.Z`，预发布版在版本号后加 `-alpha.N`、`-beta.N`、`-rc.N` 等后缀。
 
 Scope 前缀用于单仓多组件项目，对应 `.quanttide/devops/contract.yaml` 中定义的作用域。
 
